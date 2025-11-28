@@ -1,0 +1,18 @@
+
+# Backend Rules
+Always Apply:
+- Use Node.js with TypeScript.
+- Follow RESTful API conventions.
+- Validate inputs using Zod.
+- Implement error handling middleware.
+- Implement a linter
+
+Auto-Attach:
+- /backend/**
+Reference:
+- /backend/src/routes/user.routes.ts
+- /backend/src/controllers/user.controller.ts
+- /backend/src/services/user.service.ts
+
+Testing:
+- Use Mocha and Chai testing library for unit tests.

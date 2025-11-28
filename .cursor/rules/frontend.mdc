@@ -1,0 +1,17 @@
+
+# Frontend Rules
+Always Apply:
+- Use React with TypeScript for all components.
+- Follow functional component pattern and hooks.
+- Use CSS Modules or Tailwind for styling.
+- Ensure accessibility (ARIA attributes, semantic HTML).
+- Implement a linter
+
+Auto-Attach:
+- /frontend/**
+Reference:
+- /frontend/src/components/Button.tsx
+- /frontend/src/hooks/useFetch.ts
+
+Testing:
+- Use Jest + React Testing Library for unit tests.

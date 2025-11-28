@@ -1,0 +1,17 @@
+
+# Database Rules
+Always Apply:
+- Use MongoDB as the primary database.
+- Use Mongoose as ORM
+- All schema changes must include migrations.
+- Normalize data for document storage where possible
+- Implement a linter
+
+Auto-Attach:
+- /database/**
+Reference:
+- /database/migrations/
+- /database/schema.sql
+
+Docker:
+- Ensure DB service in docker-compose uses persistent volumes.

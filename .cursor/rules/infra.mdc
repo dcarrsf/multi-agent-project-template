@@ -1,0 +1,19 @@
+
+# Infrastructure Rules
+Always Apply:
+- Manage Docker Compose for frontend, backend, and database.
+- Use `.env` files for environment variables.
+- Keep services isolated but networked via docker-compose.
+
+Auto-Attach:
+- /docker/**
+- /scripts/**
+- /monorepo-config/**
+
+Reference:
+- /docker/docker-compose.yml
+- /scripts/setup.sh
+
+Monorepo:
+- Use Yarn workspaces for package management.
+- Maintain consistent linting and formatting across all packages.

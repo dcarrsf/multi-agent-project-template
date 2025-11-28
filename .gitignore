@@ -153,6 +153,3 @@ out/
 *.rar
 *.7z
 
-# Cursor/IDE specific
-.cursor/
-
